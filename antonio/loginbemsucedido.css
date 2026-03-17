@@ -1,0 +1,130 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #4d4d4d;
+    color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+.container {
+      text-align: center;
+      max-width: 480px;
+      padding: 40px 24px;
+      background: rgba(20, 20, 20, 0.7);
+      border-radius: 16px;
+      box-shadow: 0 0 40px rgba(0, 255, 120, 0.12);
+    }
+.subtitle {
+  font-size: 1.3rem;
+  line-height: 1.6;
+  margin: 1.5em 0 2.5em;
+  text-align: center;          
+}
+
+.subtitle p {
+  margin: 0.4em 0;            
+}
+.btn {
+      display: inline-block;
+      background: #00a82d;
+      color: white;
+      font-size: 1.35rem;
+      font-weight: 600;
+      padding: 16px 48px;
+      border-radius: 12px;
+      text-decoration: none;
+      transition: 0.25s;
+      box-shadow: 0 6px 20px rgba(0, 204, 119, 0.3);
+    }
+
+    .btn:hover {
+      background: #00ff99;
+      transform: translateY(-3px);
+      box-shadow: 0 12px 30px rgba(0, 255, 136, 0.5);
+    }
+
+main {
+    flex: 1;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+     position: relative;
+}
+
+header img {
+    width: 340px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #002205;
+}
+
+
+nav a {
+    color: white;
+    padding: 12px 18px;
+    text-decoration: none;
+    text-align: center;
+
+    transition: 0.3s; 
+}
+
+
+nav a:hover {
+    background-color: #00a82d;
+    transform: translateY(-3px);
+    border-radius: 6px;
+}
+
+footer {
+     background-color: #111;
+    text-align: center;
+    border-top: 1px solid#002205;
+    padding: 10px;
+
+}
+
+footer p {
+    color: #888;
+    font-size: 14px;
+}
+
+.Imagem_logo {
+    width: 70px;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.login_links {
+    position: absolute;
+    left: 100px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.login_links a {
+    color: rgb(0, 68, 255);
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.pedrao{
+    text-decoration: none;
+background-color: green; 
+border-radius: 10px;
+margin: 40px;
+padding: 19px;
+}
+

@@ -1,0 +1,115 @@
+
+ div { 
+    margin-bottom: 15px; 
+}
+input { 
+    width: 100%;
+     padding: 8px;
+      box-sizing: border-box; 
+}
+button {
+     width: 100%;
+    padding: 10px; 
+    background-color: #28a745; 
+    color: white; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+}
+ button:hover {
+    background-color: #218838;
+}
+
+ form { 
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;  
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #4d4d4d;
+    color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+main{
+    flex: 1;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+     position: relative;
+}
+
+header img {
+    width: 340px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #002205;
+}
+
+
+nav a {
+    color: white;
+    padding: 12px 18px;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.3s; 
+}
+
+
+nav a:hover {
+    background-color: #00a82d;
+    transform: translateY(-3px);
+    border-radius: 6px;
+}
+
+footer {
+     background-color: #111;
+    text-align: center;
+    border-top: 1px solid#002205;
+    padding: 10px;
+
+}
+
+footer p {
+    color: #888;
+    font-size: 14px;
+}
+
+.Imagem_logo {
+    width: 70px;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.login_links {
+    position: absolute;
+    left: 100px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.login_links a {
+    color: rgb(0, 68, 255);
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: 500;
+    transition: 0.3s;
+}
